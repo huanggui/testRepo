@@ -294,18 +294,6 @@
     return YES;
 }
 
-- (void) sendTextMessage
-{
-//    if(![self checkQQ]) return;
-//    
-//    QQApiTextObject* txt = [QQApiTextObject objectWithText:@"过去两年移动互联网有很多开放平台非常成功。事实上到现在来看，发展到现在一年多，最关键的开放平台是能不能真正从用户和经济回报中打造生态链。"];
-//    
-//    QQApiMessage* msg = [QQApiMessage messageWithObject:txt];
-//    
-//    [QQApi sendMessage:msg];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"hbksw://com.hbksw"]];//"//com.hbksw" 可以没有或者其他的字符串"
-}
-
 - (void) sendImageMessage
 {
 //    if(![self checkQQ]) return;
